@@ -1,0 +1,190 @@
+.top-header-area {
+    background: #00194c;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.top-header-area:before {
+    position: absolute;
+    content: "";
+    width: 53%;
+    height: 100%;
+    left: -11px;
+    top: 0;
+    background: #0C59DB;
+    z-index: -1;
+    transform: skew(23deg);
+}
+
+
+.header-info ul li {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+.header-info ul li i {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.top-header-social-icon {
+    text-align: right;
+}
+
+.top-header-social-icon ul li {
+    display: inline-block;
+    color: #fff;
+}
+
+.top-header-social-icon ul li.time-line {
+    margin-right: 32px;
+}
+
+.top-header-social-icon ul li.time-line i {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.top-header-social-icon ul li i {
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 16px;
+    transition: 0.5s;
+}
+
+.top-header-social-icon ul li i:hover{
+   color:#0c5adb;
+}
+
+.footer-container {
+    background-color: #0A1F44;
+    color: #FFFFFF;
+    padding: 50px 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height:  50px;
+    margin-bottom: 20px;
+    position: relative;
+   
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    min-width: 200px; /* Ensures columns are not too narrow */
+    margin: 20px; /* Adds space between columns */
+}
+
+.column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul li a i {
+    margin-right: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #0A1F44;
+    color: #FFFFFF;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .footer-columns {
+        flex-direction: column; /* Stack columns on smaller screens */
+        align-items: center; /* Center items */
+    }
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a37402; /* Gold color for the button */
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+
+/* Social media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    z-index: 10; /* Ensures the icons stay on top of other elements */
+    position: relative; /* Ensure z-index takes effect */
+    top: 38px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    z-index: 10; /* Z-index for each icon */
+}
+
+.social-media a:hover {
+    color: #007BFF; /* Hover color */
+    z-index: 10; /* Keep z-index on hover */
+}

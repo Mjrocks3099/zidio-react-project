@@ -1,0 +1,468 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 50px; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Background color for the navbar */
+  position: relative;
+  z-index: 100; /* Ensures navbar is on top */
+}
+
+.navbar .logo img {
+  height: 50px; /* Adjust logo size */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}
+
+.quote-btn {
+  color: white;
+  background-color: #ff6600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.quote-btn:hover {
+  background-color: #e65c00; /* Darker on hover */
+}
+
+/* Breadcrumb Area */
+.breadcumb-area {
+    padding: 211px 0 200px; /* Padding for spacing above and below */
+    margin-top: -100px; /* Adjusts positioning, pushing the section up */
+    position: relative;
+}
+
+/* About Us Heading */
+.breadcumb-content h4 {
+    font-size: 55px; /* Font size for 'About Us' */
+    color: #fff; /* White text color for contrast */
+    
+   
+    position: relative;
+    right: -119px;
+}
+
+/* Breadcrumb Navigation (Home > About) */
+.breadcumb-content ul {
+    border: 2px solid rgba(255, 255, 255, 0.28); /* Light transparent border */
+    display: inline-block; /* Makes the breadcrumb inline */
+    padding: 8px 14px; /* Adds spacing inside the breadcrumb container */
+    border-radius: 5px; /* Rounds the edges */
+    margin-top: -19px; /* Adds spacing above the breadcrumb */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a translucent background for readability */
+    color: white; /* White text for breadcrumb */
+    position: relative;
+    right: -153px;
+}
+
+.breadcumb-area ul{
+  display:none ;
+}
+
+.breadcumb-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* About Image Background */
+.about-image-bg {
+    padding: 100px 0 255px; /* Adjust padding for spacing */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically on mobile */
+        padding: 20px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .breadcumb-area {
+        padding: 150px 0 100px; /* Adjust padding for smaller screens */
+        margin-top: 0; /* Remove negative margin on mobile */
+    }
+
+    .breadcumb-content h4 {
+        font-size: 35px; /* Smaller font size for mobile */
+        
+    }
+
+    .breadcumb-content ul {
+        padding: 6px 20px; /* Adjust padding for breadcrumb on mobile */
+    }
+
+    .about-image-bg {
+        padding: 80px 0 200px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+/* Profile Image Container */
+.person-image-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Profile Image */
+.person-image {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto;
+  object-fit: cover; /* Crop the image if necessary */
+  POSITION: relative;
+    top: -562PX;
+    right:-330px
+
+}
+
+
+
+.who-we-container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  
+  background-size: cover;
+}
+
+.who-we-left-section, .who-we-right-section {
+  width: 48%;
+}
+
+.who-we-left-section img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.who-we-stats {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.who-we-stats .who-we-icon {
+  background-color: #0056d2;
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.who-we-stats .who-we-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.who-we-stats .who-we-subtext {
+  font-size: 14px;
+  color: #666;
+}
+
+.who-we-award {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.who-we-award i {
+  margin-right: 10px;
+}
+
+.who-we-right-section h1 {
+  font-size: 36px;
+  color: #0056d2;
+}
+
+.who-we-right-section h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.who-we-right-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.who-we-features {
+  margin-top: 20px;
+}
+
+.who-we-features .who-we-feature {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.who-we-features .who-we-feature i {
+  color: #0056d2;
+  margin-right: 10px;
+}
+
+.who-we-quote {
+  background-color: #e9f1ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.who-we-quote::before {
+  content: "“";
+  font-size: 24px;
+  color: #0056d2;
+}
+
+.who-we-quote::after {
+  content: "”";
+  font-size: 24px;
+  color: #0056d2;
+}
+
+.who-we-more-button {
+  background-color: #0056d2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.who-we-more-button i {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .who-we-container {
+      flex-direction: column;
+      padding: 20px;
+  }
+  .who-we-left-section, .who-we-right-section {
+      width: 100%;
+  }
+  .who-we-right-section h1 {
+      font-size: 28px;
+  }
+  .who-we-right-section h2 {
+      font-size: 24px;
+  }
+  .who-we-right-section p {
+      font-size: 14px;
+  }
+  .who-we-stats .who-we-icon {
+      padding: 10px;
+      font-size: 18px;
+  }
+  .who-we-stats .who-we-text {
+      font-size: 18px;
+  }
+  .who-we-stats .who-we-subtext {
+      font-size: 12px;
+  }
+  .who-we-award {
+      padding: 5px 10px;
+      font-size: 14px;
+  }
+  .who-we-quote {
+      font-size: 14px;
+      padding: 10px;
+  }
+  .who-we-more-button {
+      padding: 5px 10px;
+      font-size: 14px;
+  }
+}
+
+.who-we-circle {
+background: #0c5adb;
+text-align: center;
+width: 220px;
+height: 220px;
+border-radius: 50%;
+border: 6px solid #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+position: absolute;
+bottom: -516px;
+left: 241px;
+}
+
+@media (max-width: 992px) {
+.who-we-circle {
+  width: 150px;
+  height: 150px;
+  left: 150px;
+  bottom: -400px;
+}
+}
+
+@media (max-width: 768px) {
+.who-we-circle {
+  width: 130px;
+  height: 130px;
+  left: 120px;
+  bottom: -350px;
+}
+}
+
+@media (max-width: 576px) {
+.who-we-circle {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  bottom: -300px;
+  transform: translateX(-50%); /* Center horizontally */
+}
+}
+
+
+.who-we-text {
+font-size: 36px;
+font-weight: bold;
+}
+
+.who-we-subtext {
+font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+.who-we-circle {
+  width: 150px;
+  height: 150px;
+  bottom: 50px;
+  left: calc(50% - 75px); /* Centers the circle */
+}
+.who-we-text {
+  font-size: 28px;
+}
+.who-we-subtext {
+  font-size: 12px;
+}
+}
+
+
+.who-we-award {
+background: #041424;
+display: flex;
+align-items: center;
+padding: 25px 2px ;
+width: 12%;
+border-radius: 5px;
+gap: 23px;
+position: absolute;
+top: 603px;
+right: 908px;
+animation: bounceleft 4s linear infinite;
+color: #fff; /* Ensure text color stands out against the dark background */
+}
+
+.who-we-award i {
+font-size: 24px; /* Adjust the size of the award icon */
+color: #f3c623; /* Add color to the icon to make it visually appealing */
+}
+
+/* Animation for bouncing left */
+@keyframes bounceleft {
+0%, 100% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(-10px);
+}
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+.who-we-award {
+  width: 15%; /* Increase width slightly for smaller screens */
+  right: 600px; /* Adjust position */
+  top: 700px;
+}
+}
+
+@media (max-width: 992px) {
+.who-we-award {
+  width: 20%; /* Further increase width */
+  right: 400px; /* Adjust positioning */
+  top: 650px;
+}
+}
+
+@media (max-width: 768px) {
+.who-we-award {
+  width: 25%;
+  right: 200px;
+  top: 600px;
+  padding: 20px 35px 18px; /* Adjust padding to fit the smaller size */
+}
+}
+
+@media (max-width: 576px) {
+.who-we-award {
+  width: 35%;
+  right: 50px; /* Center it more for smaller screens */
+  top: 550px;
+  padding: 15px 25px 15px; /* Reduce padding for smaller screens */
+}
+}
+
+@media (max-width: 400px) {
+.who-we-award {
+  width: 45%;
+  right: 10px; /* Keep it close to the screen edge */
+  top: 500px;
+  padding: 12px 20px 12px; /* Further reduce padding */
+}
+}

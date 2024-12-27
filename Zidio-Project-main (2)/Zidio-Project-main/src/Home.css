@@ -1,0 +1,624 @@
+.about-area.style-two {
+    background: #496794;
+    padding: 80px 0; /* Adjusted for more balanced spacing */
+    position: relative;
+}
+
+/* Container and Row */
+.container {
+    max-width: 1200px; /* Optional: Limits the container width */
+    margin: 0 auto;
+}
+
+/* About Left Section */
+.about-left {
+    position: relative;
+}
+
+.about-thumb img {
+    width: 100%; /* Responsive image */
+    border-radius: 10px; /* Optional: adds some rounding */
+}
+
+.about-shape {
+    position: absolute;
+    right: 76px;
+    bottom: 27px;
+}
+
+.about-conter-box {
+background: #060a12;
+padding: 16px 20px;
+border-radius: 10px;
+text-align: center;
+color: #ffffff;
+margin: 20px 0; /* Add margins to control spacing between other elements */
+}
+
+.about-counter-title h1 {
+    font-size: 48px; /* Adjusted font size */
+    font-weight: bold;
+}
+
+.about-counter-title span {
+    font-size: 24px; /* Adjusted font size */
+}
+
+.about-counter-title p {
+    font-size: 16px; /* Adjusted font size */
+    line-height: 24px;
+}
+
+/* About Right Section */
+.about-right {
+    position: relative;
+    padding: 20px; /* Optional: padding for inner spacing */
+}
+
+.section-title.left {
+    margin-bottom: 30px; /* Adjusted margin */
+}
+
+.section-title h2 {
+    font-size: 20px;
+    color: #26e311;
+    font-weight: bold;
+}
+
+.section-title h2 {
+    font-size: 15px;
+    color: #e0e5ea;
+    font-weight: 700;
+    line-height: 1.2; /* Better spacing */
+}
+
+.section-title p {
+    margin: 10px 0;
+}
+
+/* Icon Boxes */
+.single-about-icon-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjusted spacing */
+}
+
+.about-icon {
+    width: 60px; /* Adjusted icon size */
+    height: 60px;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures icons are rounded */
+    margin-right: 15px; /* Space between icon and text */
+}
+
+.about-icon img {
+    width: 100%; /* Responsive icon */
+}
+
+.about-icon-box-content h4 {
+    font-size: 20px; /* Font size for icon titles */
+    font-weight: 600;
+}
+
+/* Button Styles */
+.toptech-button.style-one {
+    margin-top: 20px; /* Spacing above button */
+}
+
+.toptech-button.style-one a {
+    display: inline-block;
+    background: #2f0ce0;
+    color: rgb(21, 2, 2);
+    padding: 10px 25px; /* Adjusted padding */
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.toptech-button.style-one a:hover {
+    background: rgb(249, 242, 242); /* Hover effect */
+    color: #5edb0b; /* Text color on hover */
+}
+
+/* About Shape Two */
+.about-shape-two {
+    position: absolute;
+    bottom: 0;
+    left: 239px; /* Adjust as needed */
+}
+
+/* Service Area Styling */
+.service-area {
+  
+    background-size: cover;
+    padding: 100px 0 60px;
+    position: relative;
+}
+
+.service-area:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 30, 42, 0.8);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Individual Service Box */
+.single-services-box {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 37px;
+    position: relative;
+    transition: transform 0.5s ease, background-color 0.3s ease; /* Smooth background transition */
+    z-index: 1; /* Ensure content is above the pseudo-element */
+}
+
+.single-services-box:hover {
+            background-color: #0B5ADB; /* Directly set the background color on hover */
+}
+
+/* Remove the existing ::before pseudo-element styles */
+/* Removed to eliminate sliding background effect */
+
+/* Text Styling for Service Box */
+.service-content h4 {
+    font-size: 24px;
+    color: #041424;
+    font-weight: 600;
+    transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+.service-content p {
+    margin: 12px 0;
+    color: #686868;
+    transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+.single-services-box:hover .service-content h4, 
+.single-services-box:hover .service-content p {
+    color: #fff; /* Set text color to white on hover */
+}
+
+/* Service Box Button & Icon */
+.service-content a {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    color: #fff;
+    padding: 7px 36px;
+    background: #0B5ADB;
+    border-radius: 30px;
+    display: inline-block;
+    transition: background 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.service-content a:hover {
+    background: #fff;
+    color: #0B5ADB;
+}
+
+/* Service Icon */
+.service-icon {
+width: 85px;
+height: 85px;
+background-color: #f3f8fd;
+border-radius: 50%;
+margin: auto;
+position: relative;
+top: -38px;
+display: flex; /* Flexbox for centering the icon */
+justify-content: center;
+align-items: center;
+color: #0B5ADB;
+transition: background-color 0.3s ease, color 0.3s ease;
+overflow: hidden; /* Ensures the content stays within the circle */
+}
+
+
+.single-services-box:hover .service-icon {
+    background-color: #fff; /* Change icon background on hover */
+    color: #0B5ADB; /* Change icon color on hover */
+}
+
+ /* General Styles */
+ body {
+    font-family: 'Poppins', sans-serif;
+    color: #e9f0ea;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d0d9;
+}
+
+h1, h4 {
+    margin: 0;
+    color: #e7efe7;
+    font-weight: 600;
+}
+
+p {
+    margin: 0 0 15px;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Section Titles */
+.section-title h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ecf3ea;
+    background: linear-gradient(90deg, #5fff6f, #0707da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-title h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #dbe1dd;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #1909f2;
+    background: linear-gradient(135deg, #01011bbd, #01010f);
+    border-radius: 12px;
+  }
+  
+  /* Stats Section */
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .stats div {
+    text-align: center;
+    background: #2b2b2b;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .stats div:hover {
+    transform: translateY(-5px);
+    background: #3a3a3a;
+  }
+  
+  .stats span {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    color: #5fff6f;
+    margin-bottom: 10px;
+  }
+  
+  .stats p {
+    font-size: 1.2em;
+    color: #fff;
+  }
+  
+  /* Working Process Section */
+  .working-process {
+    background: linear-gradient(135deg, #000000, #434343);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .working-process h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #e5e5e5;
+    text-align: center;
+  }
+  
+  .working-process p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #d5d5d5;
+  }
+  
+  .step {
+    background: #3b3b3b;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+    background: #474747;
+  }
+  
+  .step img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+  
+  .step h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #f0f0f0;
+  }
+  
+  .step p {
+    color: #b8b8b8;
+    line-height: 1.5;
+    font-size: 1em;
+  }
+
+  /* Testimonial Area */
+.testimonial-area {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #1a1a1d, #01010f);
+  }
+  
+  .testimonial-area .section-title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .section-title h4 {
+    font-size: 18px;
+    color: #ff5a3c;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .section-title h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+  }
+  
+  /* Testimonial List */
+  .testi-list-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Single Testimonial Box */
+  .single-testimonial-box {
+    background-color: #11174e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    flex-grow: 1;  /* Ensure boxes grow to fill available space */
+    flex-basis: calc(33.333% - 30px); /* Each box will take up 1/3 of the width with 30px gap */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .single-testimonial-box:hover {
+    transform: translateY(-15px);
+    background-color: #0a1dcf;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  }
+  
+  .testi-desc {
+    margin-bottom: 25px;
+  }
+  
+  .testi-desc p {
+    font-size: 17px;
+    color: #e3e3e3;
+    line-height: 1.9;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 10px;
+  }
+  
+  /* Testimonial Rating */
+  .testi-rating {
+    margin-bottom: 20px;
+  }
+  
+  .testi-rating ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .testi-rating ul li {
+    display: inline-block;
+    margin-right: 5px;
+    color: #ffcc00;
+  }
+  
+  .testi-rating ul li i {
+    font-size: 22px;
+  }
+  
+  /* Testimonial Author */
+  .testi-author {
+    margin-top: 20px;
+  }
+  
+  .testi-author img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 4px solid #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .testi-author img:hover {
+    transform: scale(1.1);
+  }
+  
+  .testi-author h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #13f090;
+    margin-bottom: 5px;
+  }
+  
+  .testi-author p {
+    font-size: 15px;
+    color: #bbb;
+  }
+  
+  
+/* Owl Carousel */
+.owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+}
+
+.testi-list-1 .owl-item {
+    padding: 30px;
+}
+
+/* Video Area */
+.video-area {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #01011bbd, #01010f);
+    color: #0de44e;
+    position: relative;
+}
+
+.video-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: url('https://via.placeholder.com/1200x800') center/cover no-repeat;
+    opacity: 0.1;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.video-button a {
+    color: #e30bb4;
+    font-size: 80px;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1); /* Adding a slight background transparency for more effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.video-button a:hover {
+    background-color: #fff; /* On hover, background becomes solid white */
+    color: #e30bb4; /* Retains the original font color */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2); /* Intensifies the shadow on hover */
+}
+
+/* Contact Info Area */
+.contact-info-area {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #01011bbd, #01010f);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info-box {
+    display: flex;
+    align-items: center;
+    background-color: #dcdae4af;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-info-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-icon {
+    font-size: 50px;
+    color: #0750d9;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.contact-info-box:hover .contact-info-icon {
+    color: #1912ec;
+}
+
+.contact-info-content h4 {
+    font-size: 22px;
+    color: rgb(245, 237, 237);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.contact-info-content p {
+    font-size: 18px;
+    color: #e9e9f7;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .single-testimonial-box {
+        margin: 15px 0;
+    }
+
+    .section-title h1 {
+        font-size: 32px;
+    }
+
+    .video-area h1 {
+        font-size: 26px;
+    }
+
+    .contact-info-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info-icon {
+        margin-bottom: 10px;
+    }
+}
